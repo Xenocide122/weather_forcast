@@ -7,6 +7,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
+  // lookup table for weather icons fontawesome
   const weatherIconMap = {
     0: "fa-sun yellow", // Clear sky
     1: "fa-cloud-sun", // Mainly clear
